@@ -1,0 +1,84 @@
+Request Time: 2023-09-19 12:01:43
+Request: {'action': 'put', 'key': 'ironman', 'value': 'Tony Stark'}
+Response: Put successful
+Request Time: 2023-09-19 12:01:43
+Request: {'action': 'put', 'key': 'spiderman', 'value': 'Peter Parker'}
+Response: Put successful
+Request Time: 2023-09-19 12:01:43
+Request: {'action': 'get', 'key': 'ironman'}
+Response: Tony Stark
+Request Time: 2023-09-19 12:01:43
+Request: {'action': 'get', 'key': 'spiderman'}
+Response: Peter Parker
+Request Time: 2023-09-19 12:01:43
+Request: {'action': 'delete', 'key': 'spiderman'}
+Response: Delete successful
+Request Time: 2023-09-19 12:01:43
+Request: {'action': 'get', 'key': 'spiderman'}
+Response: Key not found
+Request Time: 2023-09-19 12:01:43
+Request: {'action': 'exit'}
+Response: Key not found
+Request Time: 2023-09-19 12:04:48
+Request: {'action': 'put', 'key': 'ironman', 'value': 'Tony Stark'}
+Response: Put successful
+Request Time: 2023-09-19 12:04:48
+Request: {'action': 'put', 'key': 'spiderman', 'value': 'Peter Parker'}
+Response: Put successful
+Request Time: 2023-09-19 12:04:48
+Request: {'action': 'get', 'key': 'ironman'}
+Response: Tony Stark
+Request Time: 2023-09-19 12:04:48
+Request: {'action': 'get', 'key': 'spiderman'}
+Response: Peter Parker
+Request Time: 2023-09-19 12:04:48
+Request: {'action': 'delete', 'key': 'spiderman'}
+Response: Delete successful
+Request Time: 2023-09-19 12:04:48
+Request: {'action': 'get', 'key': 'spiderman'}
+Response: Key not found
+Request Time: 2023-09-19 12:04:48
+Request: {'action': 'exit'}
+Response: b'\x80\x04\x95"\x00\x00\x00\x00\x00\x00\x00\x8c\x1eClosing connection with server\x94.'
+Request Time: 2023-09-19 12:05:40
+Request: {'action': 'put', 'key': 'ironman', 'value': 'Tony Stark'}
+Response: Put successful
+Request Time: 2023-09-19 12:05:40
+Request: {'action': 'put', 'key': 'spiderman', 'value': 'Peter Parker'}
+Response: Put successful
+Request Time: 2023-09-19 12:05:40
+Request: {'action': 'get', 'key': 'ironman'}
+Response: Tony Stark
+Request Time: 2023-09-19 12:05:40
+Request: {'action': 'get', 'key': 'spiderman'}
+Response: Peter Parker
+Request Time: 2023-09-19 12:05:40
+Request: {'action': 'delete', 'key': 'spiderman'}
+Response: Delete successful
+Request Time: 2023-09-19 12:05:40
+Request: {'action': 'get', 'key': 'spiderman'}
+Response: Key not found
+Request Time: 2023-09-19 12:05:40
+Request: {'action': 'exit'}
+Response: Closing connection with server
+Request Time: 2023-09-19 12:29:21
+Request: {'action': 'put', 'key': 'ironman', 'value': 'Tony Stark'}
+Response: Put successful
+Request Time: 2023-09-19 12:29:21
+Request: {'action': 'put', 'key': 'spiderman', 'value': 'Peter Parker'}
+Response: Put successful
+Request Time: 2023-09-19 12:29:21
+Request: {'action': 'get', 'key': 'ironman'}
+Response: Tony Stark
+Request Time: 2023-09-19 12:29:21
+Request: {'action': 'get', 'key': 'spiderman'}
+Response: Peter Parker
+Request Time: 2023-09-19 12:29:21
+Request: {'action': 'delete', 'key': 'spiderman'}
+Response: Delete successful
+Request Time: 2023-09-19 12:29:21
+Request: {'action': 'get', 'key': 'spiderman'}
+Response: Key not found
+Request Time: 2023-09-19 12:29:21
+Request: {'action': 'exit'}
+Response: Closing connection with server

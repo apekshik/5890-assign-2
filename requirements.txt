@@ -1,0 +1,7 @@
+# requirements.txt
+
+# You can specify the exact versions if needed
+# socket
+# pickle
+# threading
+# time
