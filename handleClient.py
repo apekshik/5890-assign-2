@@ -4,38 +4,38 @@ import socket
 import pickle
 import threading  
 
-class InMemoryKeyValueStore:
-    def __init__(self):
-        self.store = {}
+# class InMemoryKeyValueStore:
+#     def __init__(self):
+#         self.store = {}
 
-    def put(self, key, value):
-        self.store[key] = value
-        return "Put successful"  # Return a success message
+#     def put(self, key, value):
+#         self.store[key] = value
+#         return "Put successful"  # Return a success message
 
-    def get(self, key):
-        if key in self.store:
-            return self.store[key]  # Return the value if the key exists
-        else:
-            return "Key not found"  # Return an error message
+#     def get(self, key):
+#         if key in self.store:
+#             return self.store[key]  # Return the value if the key exists
+#         else:
+#             return "Key not found"  # Return an error message
 
-    def delete(self, key):
-        if key in self.store:
-            del self.store[key]
-            return "Delete successful"  # Return a success message
-        else:
-            return "Key not found"  # Return an error message
+#     def delete(self, key):
+#         if key in self.store:
+#             del self.store[key]
+#             return "Delete successful"  # Return a success message
+#         else:
+#             return "Key not found"  # Return an error message
 
 
-    def __str__(self):
-        # Get the first three key-value pairs (items) from the dictionary
-        first_three_items = list(self.store.items())[:3]
+#     def __str__(self):
+#         # Get the first three key-value pairs (items) from the dictionary
+#         first_three_items = list(self.store.items())[:3]
 
-        if len(self.store) <= 3:
-            # If there are 3 or fewer items, print the whole store
-            return str(self.store)
-        else:
-            # If there are more than 3 items, print only the first three
-            return str(dict(first_three_items))
+#         if len(self.store) <= 3:
+#             # If there are 3 or fewer items, print the whole store
+#             return str(self.store)
+#         else:
+#             # If there are more than 3 items, print only the first three
+#             return str(dict(first_three_items))
 
 # Instance of the key-value store
 kv_store = InMemoryKeyValueStore()

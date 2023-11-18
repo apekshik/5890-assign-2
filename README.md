@@ -1,3 +1,8 @@
+## Running Instructions: 
+
+* Run the bash script using ./run_instances.sh to run three concurrent KV-stores exposed on three different ports. 
+* Then run TestDistributedInMemoryDataStore.py to test out our distributed in-memory Data store. 
+
 This is the 1 Page report for this assignemt.
 
 # Design Decisions and Justifications
