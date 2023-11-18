@@ -82,3 +82,261 @@ Response: Key not found
 Request Time: 2023-09-19 12:29:21
 Request: {'action': 'exit'}
 Response: Closing connection with server
+Request Time: 2023-11-17 23:22:12
+Request: {'action': 'put', 'key': 'ironman', 'value': 'Tony Stark'}
+Response: Put successful
+Request Time: 2023-11-17 23:22:12
+Request: {'action': 'put', 'key': 'ironman', 'value': 'Tony Stark'}
+Response: Put successful
+Request Time: 2023-11-17 23:22:12
+Request: {'action': 'put', 'key': 'spiderman', 'value': 'Peter Parker'}
+Response: Put successful
+Request Time: 2023-11-17 23:22:12
+Request: {'action': 'put', 'key': 'spiderman', 'value': 'Peter Parker'}
+Response: Put successful
+Request Time: 2023-11-17 23:22:12
+Request: {'action': 'get', 'key': 'ironman'}
+Response: Tony Stark
+Request Time: 2023-11-17 23:22:12
+Request: {'action': 'get', 'key': 'ironman'}
+Response: Tony Stark
+Request Time: 2023-11-17 23:22:12
+Request: {'action': 'get', 'key': 'spiderman'}
+Response: Peter Parker
+Request Time: 2023-11-17 23:22:12
+Request: {'action': 'get', 'key': 'spiderman'}
+Response: Peter Parker
+Request Time: 2023-11-17 23:22:12
+Request: {'action': 'delete', 'key': 'spiderman'}
+Response: Delete successful
+Request Time: 2023-11-17 23:22:12
+Request: {'action': 'delete', 'key': 'spiderman'}
+Response: Delete successful
+Request Time: 2023-11-17 23:22:12
+Request: {'action': 'get', 'key': 'spiderman'}
+Response: Key not found
+Request Time: 2023-11-17 23:22:12
+Request: {'action': 'get', 'key': 'spiderman'}
+Response: Key not found
+Request Time: 2023-11-17 23:28:18
+Request: {'action': 'put', 'key': 'ironman', 'value': 'Tony Stark'}
+Response: Put successful
+Request Time: 2023-11-17 23:28:18
+Request: {'action': 'put', 'key': 'ironman', 'value': 'Tony Stark'}
+Response: Put successful
+Request Time: 2023-11-17 23:28:18
+Request: {'action': 'put', 'key': 'ironman', 'value': 'Tony Stark'}
+Response: Put successful
+Request Time: 2023-11-17 23:28:18
+Request: {'action': 'put', 'key': 'ironman', 'value': 'Tony Stark'}
+Response: Put successful
+Request Time: 2023-11-17 23:28:18
+Request: {'action': 'put', 'key': 'ironman', 'value': 'Tony Stark'}
+Response: Put successful
+Request Time: 2023-11-17 23:28:18
+Request: {'action': 'put', 'key': 'spiderman', 'value': 'Peter Parker'}
+Response: Put successful
+Request Time: 2023-11-17 23:28:18
+Request: {'action': 'put', 'key': 'spiderman', 'value': 'Peter Parker'}
+Response: Put successful
+Request Time: 2023-11-17 23:28:18
+Request: {'action': 'put', 'key': 'spiderman', 'value': 'Peter Parker'}
+Response: Put successful
+Request Time: 2023-11-17 23:28:18
+Request: {'action': 'put', 'key': 'spiderman', 'value': 'Peter Parker'}
+Response: Put successful
+Request Time: 2023-11-17 23:28:18
+Request: {'action': 'put', 'key': 'spiderman', 'value': 'Peter Parker'}
+Response: Put successful
+Request Time: 2023-11-17 23:28:18
+Request: {'action': 'get', 'key': 'ironman'}
+Response: Tony Stark
+Request Time: 2023-11-17 23:28:18
+Request: {'action': 'get', 'key': 'ironman'}
+Response: Tony Stark
+Request Time: 2023-11-17 23:28:18
+Request: {'action': 'get', 'key': 'ironman'}
+Response: Tony Stark
+Request Time: 2023-11-17 23:28:18
+Request: {'action': 'get', 'key': 'ironman'}
+Response: Tony Stark
+Request Time: 2023-11-17 23:28:18
+Request: {'action': 'get', 'key': 'ironman'}
+Response: Tony Stark
+Request Time: 2023-11-17 23:28:18
+Request: {'action': 'get', 'key': 'spiderman'}
+Response: Peter Parker
+Request Time: 2023-11-17 23:28:18
+Request: {'action': 'get', 'key': 'spiderman'}
+Response: Peter Parker
+Request Time: 2023-11-17 23:28:18
+Request: {'action': 'get', 'key': 'spiderman'}
+Response: Peter Parker
+Request Time: 2023-11-17 23:28:18
+Request: {'action': 'get', 'key': 'spiderman'}
+Response: Peter Parker
+Request Time: 2023-11-17 23:28:18
+Request: {'action': 'get', 'key': 'spiderman'}
+Response: Peter Parker
+Request Time: 2023-11-17 23:28:18
+Request: {'action': 'delete', 'key': 'spiderman'}
+Response: Delete successful
+Request Time: 2023-11-17 23:28:18
+Request: {'action': 'delete', 'key': 'spiderman'}
+Response: Delete successful
+Request Time: 2023-11-17 23:28:18
+Request: {'action': 'delete', 'key': 'spiderman'}
+Response: Key not found
+Request Time: 2023-11-17 23:28:18
+Request: {'action': 'delete', 'key': 'spiderman'}
+Response: Key not found
+Request Time: 2023-11-17 23:28:18
+Request: {'action': 'delete', 'key': 'spiderman'}
+Response: Key not found
+Request Time: 2023-11-17 23:28:18
+Request: {'action': 'get', 'key': 'spiderman'}
+Response: Key not found
+Request Time: 2023-11-17 23:28:18
+Request: {'action': 'get', 'key': 'spiderman'}
+Response: Key not found
+Request Time: 2023-11-17 23:28:18
+Request: {'action': 'get', 'key': 'spiderman'}
+Response: Key not found
+Request Time: 2023-11-17 23:28:18
+Request: {'action': 'get', 'key': 'spiderman'}
+Response: Key not found
+Request Time: 2023-11-17 23:28:18
+Request: {'action': 'get', 'key': 'spiderman'}
+Response: Key not found
+Request Time: 2023-11-17 23:31:09
+Request: {'action': 'put', 'key': 'ironman', 'value': 'Tony Stark'}
+Response: Put successful
+Request Time: 2023-11-17 23:31:09
+Request: {'action': 'put', 'key': 'ironman', 'value': 'Tony Stark'}
+Response: Put successful
+Request Time: 2023-11-17 23:31:09
+Request: {'action': 'put', 'key': 'ironman', 'value': 'Tony Stark'}
+Response: Put successful
+Request Time: 2023-11-17 23:31:09
+Request: {'action': 'put', 'key': 'ironman', 'value': 'Tony Stark'}
+Response: Put successful
+Request Time: 2023-11-17 23:31:09
+Request: {'action': 'put', 'key': 'ironman', 'value': 'Tony Stark'}
+Response: Put successful
+Request Time: 2023-11-17 23:31:09
+Request: {'action': 'put', 'key': 'spiderman', 'value': 'Peter Parker'}
+Response: Put successful
+Request Time: 2023-11-17 23:31:09
+Request: {'action': 'put', 'key': 'spiderman', 'value': 'Peter Parker'}
+Response: Put successful
+Request Time: 2023-11-17 23:31:09
+Request: {'action': 'put', 'key': 'spiderman', 'value': 'Peter Parker'}
+Response: Put successful
+Request Time: 2023-11-17 23:31:09
+Request: {'action': 'put', 'key': 'spiderman', 'value': 'Peter Parker'}
+Response: Put successful
+Request Time: 2023-11-17 23:31:09
+Request: {'action': 'put', 'key': 'spiderman', 'value': 'Peter Parker'}
+Response: Put successful
+Request Time: 2023-11-17 23:31:09
+Request: {'action': 'get', 'key': 'ironman'}
+Response: Tony Stark
+Request Time: 2023-11-17 23:31:09
+Request: {'action': 'get', 'key': 'ironman'}
+Response: Tony Stark
+Request Time: 2023-11-17 23:31:09
+Request: {'action': 'get', 'key': 'ironman'}
+Response: Tony Stark
+Request Time: 2023-11-17 23:31:09
+Request: {'action': 'get', 'key': 'ironman'}
+Response: Tony Stark
+Request Time: 2023-11-17 23:31:09
+Request: {'action': 'get', 'key': 'ironman'}
+Response: Tony Stark
+Request Time: 2023-11-17 23:31:09
+Request: {'action': 'get', 'key': 'spiderman'}
+Response: Peter Parker
+Request Time: 2023-11-17 23:31:09
+Request: {'action': 'get', 'key': 'spiderman'}
+Response: Peter Parker
+Request Time: 2023-11-17 23:31:09
+Request: {'action': 'get', 'key': 'spiderman'}
+Response: Peter Parker
+Request Time: 2023-11-17 23:31:09
+Request: {'action': 'get', 'key': 'spiderman'}
+Response: Peter Parker
+Request Time: 2023-11-17 23:31:09
+Request: {'action': 'get', 'key': 'spiderman'}
+Response: Peter Parker
+Request Time: 2023-11-17 23:31:09
+Request: {'action': 'delete', 'key': 'spiderman'}
+Response: Delete successful
+Request Time: 2023-11-17 23:31:09
+Request: {'action': 'delete', 'key': 'spiderman'}
+Response: Delete successful
+Request Time: 2023-11-17 23:31:09
+Request: {'action': 'delete', 'key': 'spiderman'}
+Response: Key not found
+Request Time: 2023-11-17 23:31:09
+Request: {'action': 'delete', 'key': 'spiderman'}
+Response: Key not found
+Request Time: 2023-11-17 23:31:09
+Request: {'action': 'delete', 'key': 'spiderman'}
+Response: Key not found
+Request Time: 2023-11-17 23:31:09
+Request: {'action': 'get', 'key': 'spiderman'}
+Response: Key not found
+Request Time: 2023-11-17 23:31:09
+Request: {'action': 'get', 'key': 'spiderman'}
+Response: Key not found
+Request Time: 2023-11-17 23:31:09
+Request: {'action': 'get', 'key': 'spiderman'}
+Response: Key not found
+Request Time: 2023-11-17 23:31:09
+Request: {'action': 'get', 'key': 'spiderman'}
+Response: Key not found
+Request Time: 2023-11-17 23:31:09
+Request: {'action': 'get', 'key': 'spiderman'}
+Response: Key not found
+Request Time: 2023-11-17 23:37:29
+Request: {'action': 'put', 'key': 'forward_test_key1', 'value': 'Value1'}
+Response: Put successful
+Request Time: 2023-11-17 23:37:29
+Request: {'action': 'put', 'key': 'forward_test_key1', 'value': 'Value1'}
+Response: Put successful
+Request Time: 2023-11-17 23:37:29
+Request: {'action': 'get', 'key': 'forward_test_key1'}
+Response: Value1
+Request Time: 2023-11-17 23:37:29
+Request: {'action': 'get', 'key': 'forward_test_key1'}
+Response: Value1
+Request Time: 2023-11-17 23:41:26
+Request: {'action': 'put', 'key': 'forward_test_key1', 'value': 'Value1'}
+Response: Put successful
+Request Time: 2023-11-17 23:41:26
+Request: {'action': 'put', 'key': 'forward_test_key1', 'value': 'Value1'}
+Response: Put successful
+Request Time: 2023-11-17 23:41:26
+Request: {'action': 'get', 'key': 'forward_test_key1'}
+Response: Value1
+Request Time: 2023-11-17 23:41:26
+Request: {'action': 'get', 'key': 'forward_test_key1'}
+Response: Value1
+Request Time: 2023-11-17 23:41:51
+Request: {'action': 'put', 'key': 'forward_test_key2', 'value': 'Value2'}
+Response: Put successful
+Request Time: 2023-11-17 23:41:51
+Request: {'action': 'put', 'key': 'forward_test_key2', 'value': 'Value2'}
+Response: Put successful
+Request Time: 2023-11-17 23:41:51
+Request: {'action': 'get', 'key': 'forward_test_key2'}
+Response: Value2
+Request Time: 2023-11-17 23:42:44
+Request: {'action': 'put', 'key': 'forward_test_key2', 'value': 'Value2'}
+Response: Put successful
+Request Time: 2023-11-17 23:42:44
+Request: {'action': 'put', 'key': 'forward_test_key2', 'value': 'Value2'}
+Response: Put successful
+Request Time: 2023-11-17 23:42:44
+Request: {'action': 'get', 'key': 'forward_test_key2'}
+Response: Value2

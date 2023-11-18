@@ -126,7 +126,7 @@ server.bind(server_address)
 server.listen()
 print("Listening on", server_address)
 
-def handle_client2(client_socket, client_address, kv_store):
+def handle_client2(client_socket, client_address):
     with client_handler_semaphore: 
         connected = True
         while connected:
@@ -159,6 +159,7 @@ def handle_client2(client_socket, client_address, kv_store):
                         result = "Unknown Command Passed"
                 else:
                     # Forward the request to the responsible node
+                    print("Request Forwarded to separate Server.")
                     result = kv_store.send_request_to_node(responsible_node, request_data)
 
                 # Serialize and send the response back to the client
