@@ -9,7 +9,7 @@ def send_request(server_address, command):
         return pickle.loads(response)
 
 # Define nodes and test commands
-nodes = [('127.0.0.1', 8888), ('127.0.0.1', 8889)]
+nodes = [('127.0.0.1', 8890), ('127.0.0.1', 8889)]
 commands = [
     {"action": "put", "key": "forward_test_key2", "value": "Value2"},  # Intended for Node 1
     {"action": "get", "key": "forward_test_key2"}  # Intended for Node 2

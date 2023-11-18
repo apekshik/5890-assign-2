@@ -1,7 +1,15 @@
 ## Running Instructions: 
 
-* Run the bash script using ./run_instances.sh to run three concurrent KV-stores exposed on three different ports. 
-* Then run TestDistributedInMemoryDataStore.py to test out our distributed in-memory Data store. 
+* Run ./free_ports.sh to ƒree ports first: 8888, 8889, 8890. Then run ./run_instances.sh.
+* ./run_instances.sh runs three concurrent KV-stores exposed on three different ports. 
+
+## Testing Instructions (Make sure to run stuff above on a separate terminal before testing): 
+
+Run all these scripts on a separate terminal. 
+
+* Dist_Test1_InMemoryDataStore.py tests each of the three KV-stores started by the ./run_instances.sh script. 
+* Dist_Test2_InMemoryDataStore.py tests out our distributed KV-store to test port forwarding. We purposely send the wrong server the request to see if it forwards the request to the rightt one. 
+* Dist_Test3_InMemoryDataStore.py tests the same port forwarding issues that Test2 deals with but is more exhaustive.
 
 This is the 1 Page report for this assignemt.
 

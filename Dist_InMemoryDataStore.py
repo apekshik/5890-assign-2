@@ -27,8 +27,9 @@ MAX_CONCURRENT_CLIENTS = 5
 client_handler_semaphore = threading.BoundedSemaphore(MAX_CONCURRENT_CLIENTS)
 
 class InMemoryKeyValueStore:
-    def __init__(self, filename="key_value_store.pkl"):
-        self.filename = filename
+    def __init__(self, port, filename_template="key_value_store_{}.pkl"):
+        # Filename now includes the port number
+        self.filename = filename_template.format(port)
         self.store = self.load_from_disk()
 
 
@@ -91,14 +92,6 @@ class InMemoryKeyValueStore:
             # If there are more than 3 items, print only the first three
             return str(dict(first_three_items))
 
-# Instance of the key-value store
-kv_store = InMemoryKeyValueStore()
-
-# Start the auto-saving thread
-auto_save_thread = threading.Thread(target=kv_store.auto_save_thread)
-auto_save_thread.daemon = True  # This thread will exit when the main program exits
-auto_save_thread.start()
-
 # Create server socket
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
@@ -116,6 +109,15 @@ try:
 except ValueError:
     print("Invalid port number. Please provide a valid integer.")
     sys.exit(1)
+
+# Instance of the key-value store
+# Create an instance of the key-value store for this specific server port
+kv_store = InMemoryKeyValueStore(server_port)
+# Start the auto-saving thread
+auto_save_thread = threading.Thread(target=kv_store.auto_save_thread)
+auto_save_thread.daemon = True  # This thread will exit when the main program exits
+auto_save_thread.start()
+
 
 server_address = ("127.0.0.1", server_port)
 
@@ -140,6 +142,7 @@ def handle_client2(client_socket, client_address):
 
                 # Determine which node is responsible for this key
                 responsible_node = ring.get_node(request_data["key"])
+                # print("responsible node:", responsible_node)
 
                 # Check if the responsible node is this server
                 if responsible_node == f"{server_address[0]}:{server_address[1]}":
@@ -159,7 +162,7 @@ def handle_client2(client_socket, client_address):
                         result = "Unknown Command Passed"
                 else:
                     # Forward the request to the responsible node
-                    print("Request Forwarded to separate Server.")
+                    print(f"Request Forwarded to Server {responsible_node} from {server_address}")
                     result = kv_store.send_request_to_node(responsible_node, request_data)
 
                 # Serialize and send the response back to the client
