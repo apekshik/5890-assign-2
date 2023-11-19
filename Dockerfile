@@ -10,8 +10,10 @@ COPY . /app
 # Install any necessary dependencies
 RUN pip install -r requirements.txt
 
-# Expose the port your key-value store will run on
+# Expose the ports for your key-value store instances
 EXPOSE 8888
+EXPOSE 8889
+EXPOSE 8890
 
-# Define the command to run your application
-CMD ["python", "InMemoryDataStore.py"]
+# Define the command to run your application instances
+CMD ["./scripts/run_instances.sh"]
